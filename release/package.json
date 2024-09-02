@@ -1,0 +1,19 @@
+{
+  "name": "GeoMasterServer",
+  "version": "0.0.1",
+  "description": "吉奥时空地理孪生云渲染的主控程序",
+  "private": true,
+  "main": "main.node",
+  "author": "qukang, wangyaqi, liuck",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^30.0.3",
+    "javascript-obfuscator": "^4.1.1"
+  },
+  "dependencies": {
+    "asarmor": "^3.0.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

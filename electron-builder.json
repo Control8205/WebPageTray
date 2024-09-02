@@ -1,0 +1,29 @@
+{
+    "appId": "com.geostar.GeoMasterServer",
+    "copyright": "Copyright Wuda Geoinformatics Co., Ltd. All rights reserved.",
+    "productName": "GeoMasterServer",
+    "directories": {
+      "output": "dist",
+      "app": "obfuscated"
+    },
+    "beforePack": "./beforePack.js",
+    "afterPack": "./afterPack.js",
+    "extraResources": [
+      {
+        "from": "./config/config.json",
+        "to": "../config.json"
+      },
+      {
+        "from": "./public",
+        "to": "./public"
+      }
+    ],
+    "win": {
+      "icon": "./public/images/icon.png",
+      "target": "portable"
+    },
+    "portable": {
+      "artifactName": "${productName}.${ext}",
+      "requestExecutionLevel": "admin"
+    }
+}

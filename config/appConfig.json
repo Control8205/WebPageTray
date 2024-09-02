@@ -1,0 +1,23 @@
+{
+    "server": {
+        "port": 9313
+    },
+    "menu": [
+        {
+            "label": "云渲染DEMO",
+            "url": "http://localhost:9313"
+        },
+        {
+            "label": "云渲染管理平台",
+            "url": "#"
+        },
+        {
+            "label": "开发者中心网站",
+            "url": "http://192.168.100.231:8888/geomap-api/index.html"
+        },
+        {
+            "label": "更新",
+            "url": "#"
+        }
+    ]
+}

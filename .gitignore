@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output directories
+dist/
+out/
+build/
+
+# Electron-specific
+*.asar
+*.node
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Build artifacts
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Electron Builder cache
+electron-builder-cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Compiled files and artifacts
+*.o
+*.obj
+*.pyc
+*.pyo
+*.pyd
+*.class
+
+# Test coverage
+coverage/
